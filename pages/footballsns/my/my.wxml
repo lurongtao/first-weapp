@@ -1,0 +1,10 @@
+<import src="/tpls/signin.wxml" />
+<import src="/tpls/reminders.wxml" />
+<import src="/tpls/actionsheet.wxml" />
+<template is="signin" data="{{...modal}}" />
+<template is="reminders" data="{{toastHidden}}" />
+<template is="actionsheet" data="{{...actionSheet}}" />
+
+<view class="ctrl">
+  <button type="primary" size="default" bindtap="showActionsheet"> 操作 </button>
+</view>

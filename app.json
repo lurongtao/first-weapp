@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/footballsns/main/main",
+    "pages/footballsns/search/search",
+    "pages/footballsns/media/media",
+    "pages/footballsns/my/my",
+    "pages/footballsns/exit/exit",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#058",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#0dc441",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/footballsns/main/main",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_light.png"
+      },
+      {
+        "pagePath": "pages/footballsns/search/search",
+        "text": "发现",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search_light.png"
+      },
+      {
+        "pagePath": "pages/footballsns/media/media",
+        "iconPath": "images/media.png",
+        "selectedIconPath": "images/media_light.png",
+        "text": "多媒体"
+      },
+      {
+        "pagePath": "pages/footballsns/my/my",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_light.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/footballsns/exit/exit",
+        "iconPath": "images/exit.png",
+        "selectedIconPath": "images/exit_light.png",
+        "text": "退出"
+      }
+    ]
+  }
+}

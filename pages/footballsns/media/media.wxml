@@ -1,0 +1,8 @@
+<view class="media-container">
+  <view hidden="{{isShow}}">
+    <progress percent="{{persent}}" stroke-width="4" />
+  </view>
+  <view hidden="{{!isShow}}">
+    <audio poster="{{poster}}" name="{{name}}" author="{{author}}" action="{{action}}" src="{{src}}" controls loop></audio>
+  </view>
+</view>

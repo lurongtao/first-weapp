@@ -1,0 +1,98 @@
+<view class="m-container">
+    <!-- <header>
+        <ul>
+            <li class="header-icon">
+                <icon type="info" size="30" color="rgba(255,255,255,0.5)" />
+            </li>
+            <li class="header-nav">
+                <span class="active">热点</span>
+                <span>关注</span>
+            </li>
+            <li class="header-icon">
+                <icon type="download" size="30" color="rgba(255,255,255,0.5)" />
+            </li>
+        </ul>
+    </header> -->
+    <nav>
+        <ul>
+            <li class="{{current==0 ? 'active' : ''}}" catchtap="switchSwiper" data-index="0">足球现场</li>
+            <li class="{{current==1 ? 'active' : ''}}" catchtap="switchSwiper" data-index="1">足球生活</li>
+            <li class="{{current==2 ? 'active' : ''}}" catchtap="switchSwiper" data-index="2">足球美女</li>
+        </ul>
+    </nav>
+    <section>
+        <swiper duration="300" current="{{current}}" bindchange="changeItem">
+            <block>
+                <swiper-item>
+                    <scroll-view scroll-y="true">
+                        <ul>
+                            <li>
+                                <image src="./images/img1.jpg" mode="aspectFill"></image>
+                                <b>西甲-巴萨3-4客负 皇马1-1丢榜首</b>
+                            </li>
+                            <li>
+                                <image src="./images/img2.png" mode="aspectFill"></image>
+                                <b>英超-曼联憾平 曼城0-2热刺 瓜帅首败</b>
+                            </li>
+                            <li>
+                                <image src="./images/img3.jpg" mode="aspectFill"></image>
+                                <b>意甲-AC米兰4-3 国米1-2罗马</b>
+                            </li>
+                            <li>
+                                <image src="./images/img4.jpg" mode="aspectFill"></image>
+                                <b>德甲-拜仁1-1终结连胜 药厂擒多特</b>
+                            </li>
+                            <li>
+                                <image src="./images/img1.jpg" mode="aspectFill"></image>
+                                <b>西甲-巴萨3-4客负 皇马1-1丢榜首</b>
+                            </li>
+                            <li>
+                                <image src="./images/img2.png" mode="aspectFill"></image>
+                                <b>英超-曼联憾平 曼城0-2热刺 瓜帅首败</b>
+                            </li>
+                            <li>
+                                <image src="./images/img3.jpg" mode="aspectFill"></image>
+                                <b>意甲-AC米兰4-3 国米1-2罗马</b>
+                            </li>
+                            <li>
+                                <image src="./images/img4.jpg" mode="aspectFill"></image>
+                                <b>德甲-拜仁1-1终结连胜 药厂擒多特</b>
+                            </li>
+                        </ul>
+                        <!-- <ul>
+                            <li wx:for="{{list}}" wx:for-item="item">
+                                <image src="{{item.img}}" mode="aspectFill"></image>
+                                <b>{{item.title}}</b>
+                            </li>
+                        </ul> -->
+                    </scroll-view>
+                </swiper-item>
+                <swiper-item>足球生活</swiper-item>
+                <swiper-item>足球美女</swiper-item>
+            </block>
+        </swiper>
+    </section>
+    <!--<footer>
+        <ul>
+            <li class="active">
+                <icon type="success" size="24" color="#0dc441" />
+                <b>首页</b>
+            </li>
+            <li>
+                <icon type="info" size="24" color="#d6d6d6" />
+                <b>发现</b>
+            </li>
+            <li class="choose-image">
+                <icon type="search" size="24" color="#d6d6d6" />
+            </li>
+            <li>
+                <icon type="waiting" size="24" color="#d6d6d6" />
+                <b>我的</b>
+            </li>
+            <li>
+                <icon type="cancel" size="24" color="#d6d6d6" />
+                <b>退出</b>
+            </li>
+        </ul>
+    </footer>-->
+</view>

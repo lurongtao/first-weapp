@@ -5,7 +5,7 @@ var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 
 gulp.task('scss', function () {
-  gulp.src('./**/*.scss')
+  gulp.src(['./**/*.scss', '!node_modules/**/*'])
     .pipe(sass().on('error', sass.logError))
     .pipe(rename(function (path) {
       path.extname = '.wxss';

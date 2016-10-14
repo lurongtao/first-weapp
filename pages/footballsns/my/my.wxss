@@ -11,12 +11,3 @@
     border: solid 1px #ccc;
     border-radius: 3px;
     padding: 0 2px; }
-
-.ctrl {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .ctrl button {
-    box-sizing: border-box;
-    width: 80%; }

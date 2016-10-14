@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/footballsns/main/main",
+    "pages/footballsns/detail/detail",
     "pages/footballsns/search/search",
     "pages/footballsns/media/media",
     "pages/footballsns/my/my",

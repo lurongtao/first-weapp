@@ -24,7 +24,7 @@
   padding: 4px 4px 4px 0;
 }
 
-.main-list ul li {
+.main-list ul navigator {
   box-sizing: border-box;
   width: 50%;
   padding-left: 4px;

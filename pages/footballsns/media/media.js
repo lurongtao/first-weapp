@@ -17,7 +17,7 @@ Page({
         this.setData({
           isShow: true,
           action: {
-            method: 'play'
+            method: 'pause'
           }
         });
         clearInterval(timer);

@@ -20,10 +20,12 @@
                   <button plain="true" loading="true">努力刷新中...</button>
                 </view>
                 <ul>
-                  <li wx:for="{{list}}" wx:for-item="item">
-                    <image src="{{item.img}}" mode="aspectFill"></image>
-                    <b>{{item.title}}</b>
-                  </li>
+                  <navigator url="../detail/detail?id=2" wx:for="{{list}}" wx:for-item="item">
+                    <li>
+                      <image src="{{item.img}}" mode="aspectFill"></image>
+                      <b>{{item.title}}</b>
+                    </li>
+                  </navigator>
                 </ul>
                 <view hidden="{{loadmoreHidden}}">
                   <button plain="true" loading="true">努力加载中...</button>

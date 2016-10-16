@@ -1,8 +1,25 @@
 .media-container {
   height: 100%;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  flex-direction: column; }
-  .media-container view {
-    width: 304px; }
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 10px; }
+  .media-container .progress {
+    width: 304px;
+    box-sizing: border-box;
+    padding-bottom: 10px; }
+  .media-container .media {
+    height: 304px; }
+  .media-container .record, .media-container .chooseimg {
+    display: flex; }
+    .media-container .record button, .media-container .chooseimg button {
+      margin: 10px; }
+  .media-container .chooseimg button {
+    background: #058;
+    font-size: 14px; }
+  .media-container .chooseimg image {
+    width: 36px;
+    height: 36px;
+    margin-top: 10px; }

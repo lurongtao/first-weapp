@@ -1,3 +1,18 @@
-<view>
-  
+<view class="search-container">
+  <view>[当前位置]</view>
+  <view class="pos">
+    <view>纬度:{{latitude}}</view>
+    <view>经度:{{longitude}}</view>
+    <view>速度:{{speed}}</view>
+    <view>位置的精确度:{{acuracy}}</view>
+  </view>
+  <view class="map">
+    <button bindtap="showInWechatMap">在微信内置地图中查看</button>
+    <map longitude="{{longitude}}" latitude="{{latitude}}" scale="16" style="width: 355px; height: 200px;"></map>
+  </view>
+  <view>[设备]</view>
+  <view class="device">
+    <view>网络状态：{{networkType}}</view>
+    <view>系统信息：见控制台</view>
+  </view>
 </view>

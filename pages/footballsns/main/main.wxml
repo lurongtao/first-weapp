@@ -1,4 +1,3 @@
-
 <view class="main-container">
     <nav class="main-nav">
         <ul>
@@ -20,7 +19,7 @@
                   <button plain="true" loading="true">努力刷新中...</button>
                 </view>
                 <ul>
-                  <navigator url="../detail/detail?id=2" wx:for="{{list}}" wx:for-item="item">
+                  <navigator url="../detail/detail?id={{item.id}}" wx:for="{{list}}" wx:for-item="item">
                     <li>
                       <image src="{{item.img}}" mode="aspectFill"></image>
                       <b>{{item.title}}</b>

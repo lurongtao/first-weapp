@@ -1,10 +1,10 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/footballsns/main/main",
-    "pages/footballsns/detail/detail",
     "pages/footballsns/search/search",
     "pages/footballsns/media/media",
+    "pages/footballsns/main/main",
+    "pages/index/index",
+    "pages/footballsns/detail/detail",
     "pages/footballsns/my/my",
     "pages/footballsns/exit/exit",
     "pages/logs/logs"

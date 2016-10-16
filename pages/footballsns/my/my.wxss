@@ -11,3 +11,7 @@
     border: solid 1px #ccc;
     border-radius: 3px;
     padding: 0 2px; }
+
+.ctrl {
+  box-sizing: border-box;
+  padding: 10px; }

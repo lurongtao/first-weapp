@@ -1,0 +1,9 @@
+.search-container {
+  box-sizing: border-box;
+  padding: 10px; }
+  .search-container .pos {
+    box-sizing: border-box;
+    padding: 10px; }
+  .search-container .device {
+    box-sizing: border-box;
+    padding: 10px; }
